@@ -12,25 +12,29 @@
     <main>
         <div>
         <h4 id="title-playlist">Playlist Duduzx</h4>
-        <img src="assets/AddictNEFFEX.jpeg" alt="">
+        <img src="assets/cd_cover.jpg" alt="">
+        <audio id="song" src="music/01. Frei Gilson - Pai Eu Quero Viver em Ti (Ao Vivo).mp3"></audio>
         <div id="below-cover">
             <div class="song-info">
-                <div id="song-name">Nome da musica</div>
+                <div id="song-name"></div>
                 <div id="band-name">Nome da banda</div>
             </div>
-            <div id="like">💜</div>
+            <button id="like">💜</button>
         </div>
         <div id="barra-progresso">
             <div id="current-progresso"></div>
         </div>
         <div id="button-container">
-            <div>🔀</div>
-            <div class="button">⏪</div>
-            <div class="button button-play">▶</div>
-            <div class="button">⏩</div>
-            <div>🔁</div>
+            <button id="shuffle">🔀</button>
+            <button id="previus" class="button">⏪</button>
+            <button id="play" class="button button-play">▶</button>
+            <button id="next" class="button">⏩</button>
+            <button id="repeat">🔁</button>
         </div>
     </main>
+
+    <script src="main.js"></script>
+
 </body>
 
 </html>

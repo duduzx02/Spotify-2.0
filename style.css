@@ -8,6 +8,13 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+button{
+    background-color: inherit;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+}
+
 img {
     width: 300px;
 }
